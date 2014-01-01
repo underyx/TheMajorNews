@@ -35,8 +35,8 @@ wasted on reddit, so it's not even that bad.)
 Oh, also, you might be wondering where the name 'TheMajorNews' came from. Well,
 Google Translate, of course!
 
->**en:** Two Headlines
->**ko:** 두 주요 뉴스
+>**en:** Two Headlines  
+>**ko:** 두 주요 뉴스  
 >**en:** The major news
 
 Notes
