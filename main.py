@@ -63,6 +63,9 @@ def do_translations(tweet, i=0):
 
 
 def post_tweet(tweet):
+    if len(tweet) > 140:
+        tweet = tweet[:137] + "..."
+
     auth = OAuth1(config.twitter_app_key, config.twitter_app_secret,
                   config.twitter_user_key, config.twitter_user_secret)
 
