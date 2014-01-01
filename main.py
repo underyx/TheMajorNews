@@ -38,6 +38,7 @@ def do_translations(tweet, i=0):
         return tweet
 
     ko_parameters = {'q': tweet,
+                     'format': 'text',
                      'target': 'ko',
                      'source': 'en',
                      'key': config.google_key}
@@ -48,6 +49,7 @@ def do_translations(tweet, i=0):
     ko_result = ko_r.json()['data']['translations'][0]['translatedText']
 
     en_parameters = {'q': ko_result,
+                     'format': 'text',
                      'target': 'en',
                      'source': 'ko',
                      'key': config.google_key}
