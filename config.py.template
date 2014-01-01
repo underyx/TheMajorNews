@@ -1,2 +1,8 @@
-twitter_key = ""
-twitter_secret = ""
+twitter_app_key = ""
+twitter_app_secret = ""
+twitter_user_key = ""
+twitter_user_secret = ""
+
+google_key = ""
+
+run_limit = 5
