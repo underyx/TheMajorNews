@@ -1,4 +1,4 @@
-# -*- utf-8 -*-
+# -*- coding: utf-8 -*-
 
 import config
 import requests
@@ -17,8 +17,22 @@ def get_access_token():
     return r.json()['access_token']
 
 
+def get_latest_tweet(token):
+    parameters = {'screen_name': 'TwoHeadlines',
+                  'count': 1,
+                  'trim_user': True}
+
+    headers = {'Authorization': 'Bearer ' + token}
+
+    r = requests.get('https://api.twitter.com/1.1/statuses/user_timeline.json',
+                     params=parameters, headers=headers)
+
+    return r.json(encoding='utf8')[0]['text']
+
+
 def main():
     bearer_token = get_access_token()
+    latest_tweet = get_latest_tweet(bearer_token)
 
 
 if __name__ == '__main__':
