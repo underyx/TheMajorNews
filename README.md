@@ -27,7 +27,7 @@ updates recently. However, on the project's blog, I've seen a reference to
 another thing this awesome guy, [Darius Kazemi](http://tinysubversions.com/)
 made; this was [@TwoHeadlines](https://twitter.com/TwoHeadlines). After having
 a good chuckle or two at a few of the bot's tweets, I had this idea to run a
-tweet or two through this other great site I randomly found years ago,
+bunch of tweets through this other great site I randomly found years ago,
 [translationparty.com](http://translationparty.com). Being bored as I was, not
 even 5 hours later I had the bot up and running. (And that time includes time
 wasted on reddit, so it's not even that bad.)
@@ -42,7 +42,7 @@ Google Translate, of course!
 Notes
 =====
 
-The Google Translate API which I'm using costs me actual, real money. So, if
+The Google Translate API, which I'm using, costs me actual, real money. So, if
 anyone feels like it, tip me on [GitTip](https://www.gittip.com/Underyx/)! Good
 news is: a mere 60 cents is enough to feed the bot for a whole day in worst
 case scenario. I still ain't made of money, though, so I might be forced to
